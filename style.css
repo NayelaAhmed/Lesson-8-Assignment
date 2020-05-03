@@ -181,9 +181,44 @@ header nav .menu-item {
 .youtube {
   margin: 0 auto;
   display: block;
+  width: 560px;
+  height: 315px;
+  border-style: none;
+}
+
+.choose-your-flavor {
+  text-align: center;
+  color: #f15a24;
+  font-size: 21pt;
 }
 
 
+.choose-your-flavor img {
+  width: 50px;
+  height: auto;
+}
+
+.flavor-bottles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.one-flavor {
+  text-align: center;
+  margin: 0 20px;
+}
+
+.one-flavor p {
+  background-color: #f15a24;
+  font-size: 12pt;
+  text-transform: uppercase;
+  color: white;
+  width: 130px;
+  padding: 10px;
+  margin: auto;
+}
 
 footer {
     background-color: #8c6239;
